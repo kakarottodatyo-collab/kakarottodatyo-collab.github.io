@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - ytauto-sim</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#555; --accent:#2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111318; --fg:#e8e8ea; --muted:#a0a0a8; --accent:#7aa2ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.75 system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px; }
+  h1 { font-size:1.6rem; } h2 { font-size:1.15rem; margin-top:2rem; }
+  .muted { color:var(--muted); } a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー（ytauto-sim）</h1>
+  <p class="muted">最終更新日：2026年11月19日</p>
+
+  <h2>1. このツールについて</h2>
+  <p>ytauto-sim は、YouTube チャンネル「Marionette」の運営者が自分のチャンネルの運営だけに使う個人用ツールです。運営者以外の方の Google アカウントでは使用しません。</p>
+
+  <h2>2. 取得する情報と使い道</h2>
+  <ul>
+    <li><strong>YouTube Data API（youtube スコープ）</strong>：運営者のチャンネル情報の確認、動画のアップロード、公開設定・予約の変更、アップロード済み動画の状態確認に使います。</li>
+    <li><strong>YouTube Analytics API（yt-analytics.readonly スコープ）</strong>：運営者のチャンネルの再生数、視聴時間、平均視聴率、高評価、コメント数、登録者の増減などの集計値を読み取り、次の動画の企画に使います。視聴者個人を特定する情報は取得しません。</li>
+  </ul>
+
+  <h2>3. 保存と管理</h2>
+  <ul>
+    <li>Google から受け取る認証情報（リフレッシュトークン）は、運営者のパソコン内の非公開の設定フォルダにだけ保存します。</li>
+    <li>取得した統計は、運営者のパソコン内に保存し、動画づくりの分析にだけ使います。</li>
+  </ul>
+
+  <h2>4. 第三者への提供</h2>
+  <p>取得した情報を第三者に販売・提供・共有することはありません。</p>
+
+  <h2>5. Google API サービスのユーザーデータに関するポリシー</h2>
+  <p>本ツールによる Google API から受け取った情報の利用および他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>（限定的使用の要件を含む）に従います。また、YouTube API サービスを利用しており、<a href="https://www.youtube.com/t/terms">YouTube 利用規約</a>および <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>が適用されます。</p>
+
+  <h2>6. アクセスの取り消し</h2>
+  <p>本ツールに与えたアクセスは、<a href="https://myaccount.google.com/permissions">Google アカウントの「サードパーティによるアクセス」</a>からいつでも取り消せます。取り消した場合、保存されたトークンは使えなくなります。</p>
+
+  <h2>7. お問い合わせ</h2>
+  <p>このページを公開しているリポジトリの Issues からお問い合わせください。</p>
+
+  <hr>
+  <p class="muted">English summary: ytauto-sim is a personal tool used only by the owner of the "Marionette" YouTube channel.
+  It uses the YouTube Data API to upload and schedule the owner's own videos, and the YouTube Analytics API (read-only) to read
+  aggregated statistics of the owner's own channel. Tokens and statistics are stored only on the owner's computer and are never
+  sold or shared. Use of information received from Google APIs adheres to the Google API Services User Data Policy, including the
+  Limited Use requirements. Access can be revoked at any time at myaccount.google.com/permissions. Contact: Issues of the
+  repository hosting this page.</p>
+</main>
+</body>
+</html>
